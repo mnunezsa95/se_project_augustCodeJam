@@ -11,6 +11,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__login/header__login.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);
@@ -21,7 +22,7 @@ html {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   color: #fff;
 }
 
@@ -37,6 +38,15 @@ button:hover {
     opacity: 0.8;
 }
 
-nav {
+a {
     cursor: pointer;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+section {
+    height: 50px;
+    background-color: black;
 }
