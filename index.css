@@ -21,21 +21,25 @@ html {
   height: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   color: #fff;
 }
 
-button, input[type="button"], input[type="reset"], input[type="submit"] {
-    border: none;
-    background: none;
-    padding: 0;
-    margin: 0;
-    cursor: pointer;
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
 }
 
 button:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 nav {
-    cursor: pointer;
+  cursor: pointer;
 }
