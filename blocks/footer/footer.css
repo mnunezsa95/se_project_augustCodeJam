@@ -1,0 +1,56 @@
+@font-face {
+  src: url(../../vendors/fonts/Rubik-Medium.woff2);
+  font-family: "Rubik-Medium";
+}
+
+.footer {
+  background-color: #172432;
+}
+
+.footer__container {
+  font-family: "Rubik-Medium";
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin: 240px 182px 140px 182px;
+  align-items: flex-start;
+  line-height: 1.2;
+}
+
+.footer__list-title {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 5px 0 0 0;
+}
+
+.footer__logo {
+  align-self: flex-start;
+  width: 234px;
+  height: 46px;
+}
+
+.footer__logo-text {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 8px 0;
+}
+
+.footer__logo-text:nth-of-type(1) {
+  margin-top: 12px;
+}
+
+.footer__list-items {
+  font-size: 16px;
+  font-weight: 300;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  margin-bottom: 0;
+}
+
+.footer__list-items-icons {
+  flex-direction: row;
+  column-gap: 24px;
+}
