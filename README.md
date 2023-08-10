@@ -3,6 +3,7 @@
 ## Overview  
 
 * Introduction
+* Contributers
 * TripleTen August Code Jam Challenge
 * Description of Project 
 * Figma Design and Images 
@@ -11,6 +12,8 @@
 
 
 ### Intro
+
+### Contributers
 
 ### TripleTen August Code Jam Challenge
 
