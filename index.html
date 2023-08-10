@@ -12,39 +12,119 @@
     />
     <title>Document</title>
     <link rel="icon" href="favicon.ico" />
-    <link rel="stylesheet" href="index.css">
-</head>
+    <link rel="stylesheet" href="index.css" />
+    <script src="./scripts/carousel.js" defer></script>
+  </head>
 
   <body class="page">
     <header class="header">
-        <div class="header__logo">
-            <img src="./images/Desktop/Logo.svg" />
-            <h2> Travellian </h2>
-        </div>
-        <nav class="header_nav">
-            <p> Home </p>
-            <p> Explore </p>
-            <p> Travel </p>
-            <p> Blog </p>
-            <p> Pricing </p>
+      <div class="header__menu">
+        <img class="header__logo" src="./images/Desktop/Logo.svg" />
+
+        <nav class="header__nav">
+          <p>Home</p>
+          <p>Explore</p>
+          <p>Travel</p>
+          <p>Blog</p>
+          <p>Pricing</p>
         </nav>
         <div class="header__login">
-            <button class="button"> Login </button>
-            <button class="button button_type_signup"> Sign up </button>
-
+          <button class="button header__button">Login</button>
+          <button class="button header__button header__button_signup">
+            Sign up
+          </button>
         </div>
+      </div>
     </header>
-
-    </header>
-    <section class="hero">
-        <div class="nav-bar">
-
-
+    <section class="gallery">
+      <h3 class="gallery__title">Destination Gallery</h3>
+      <div class="gallery__subtitle-box">
+        <span class="gallery__subtitle">Our photo gallery on trip</span>
+        <div class="gallery__buttons">
+          <button
+            id="left"
+            class="gallery__buttons-button slider-button"
+          ></button>
+          <button
+            id="right"
+            class="gallery__buttons-button slider-button"
+          ></button>
         </div>
-
-
+      </div>
+      <div class="gallery__image-wrapper">
+        <div class="gallery__carousel carousel">
+          <img
+            src="./images/Desktop/carousel-item-1.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-2.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-3.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-4.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-1.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-2.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-3.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-4.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-3.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-4.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-3.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-4.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-3.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-4.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+        </div>
+      </div>
     </section>
-
-</body>
-
+  </body>
 </html>
