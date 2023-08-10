@@ -7,7 +7,10 @@
 
 /* header */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__button/header__button.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);
@@ -18,5 +21,21 @@ html {
   height: 100%;
   display: flex;
   justify-content: center;
+  color: #fff;
+}
 
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+nav {
+    cursor: pointer;
 }
