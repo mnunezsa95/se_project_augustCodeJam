@@ -1,3 +1,4 @@
 .header__logo {
-    background-color: black;
+    max-width: 234px;
+    max-height: 46px;
 }
