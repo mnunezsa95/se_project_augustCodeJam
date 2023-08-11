@@ -1,11 +1,10 @@
 .header__menu {
     padding: 0 32px;
-    max-height: 128px;
-    width: 100%;
+    min-height: 128px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
 
     font-family: "Rubik";
     font-size: 20px;
