@@ -5,10 +5,6 @@
 
 }
 
-.header__button:hover {
-
-}
-
 .header__button_signup {
     display: flex;
     justify-content: center;
