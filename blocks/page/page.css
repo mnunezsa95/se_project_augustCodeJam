@@ -4,8 +4,9 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    margin: 0 auto;
     text-rendering: optimizeLegibility;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 
+    margin: 0 auto;
+    padding: 0 32px;
 }
