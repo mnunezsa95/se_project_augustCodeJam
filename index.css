@@ -12,8 +12,22 @@
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__button/header__button.css);
 
+/* newsletter */
+@import url(../blocks/newsletter/newsletter.css);
+
 /* footer */
 @import url(../blocks/footer/footer.css);
+
+/* fonts */
+@font-face {
+  src: url(../../vendors/fonts/PlayfairDisplay-Regular.woff2);
+  font-family: "Playfair-Display";
+}
+
+@font-face {
+  src: url(../../vendors/fonts/Rubik-Medium.woff2);
+  font-family: "Rubik-Medium";
+}
 
 body,
 html {
