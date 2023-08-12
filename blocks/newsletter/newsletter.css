@@ -27,7 +27,7 @@
 
 .newsletter__title {
   font-family: "Playfair-Display", "sans-serif";
-  font-size: 54px;
+  font-size: 3.37rem;
   line-height: 1.2;
 }
 
@@ -40,7 +40,7 @@
 
 .newsletter__label {
   font-family: "Rubik", "sans-serif";
-  font-size: 20px;
+  font-size: 1.25rem;
   padding-bottom: 16px;
 }
 
@@ -52,7 +52,7 @@
   color: rgba(255, 119, 87, 1);
   border-radius: 12px;
   font-family: "Rubik", "sans-serif";
-  font-size: 20px;
+  font-size: 1.25rem;
   border: none;
 }
 
@@ -62,7 +62,7 @@
   background-color: #ff7757;
   padding: 16px 40px;
   border-radius: 12px;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #fff;
   font-family: "Rubik", "sans-serif";
   font-weight: 400;
