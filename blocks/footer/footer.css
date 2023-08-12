@@ -6,8 +6,9 @@
   font-family: "Rubik-Medium";
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   color: #fff;
-  margin: 240px 182px 140px 182px;
+  padding: 240px 175px 140px 175px;
   align-items: flex-start;
   line-height: 1.2;
 }
