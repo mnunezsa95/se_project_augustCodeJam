@@ -1,17 +1,18 @@
 .newsletter {
   position: relative;
+  margin: 0 38px;
+  top: 10%;
+  border-radius: 26px;
 }
 
 .newsletter__container {
-  position: absolute;
   margin: 0 auto;
-  left: 15%;
-  top: -125px;
-  max-width: max-content;
+  max-width: fit-content;
   background-color: white;
   border-radius: 26px;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .newsletter__content {
@@ -44,7 +45,7 @@
 }
 
 .newsletter__input {
-  width: 100%;
+  width: 75%;
   height: auto;
   padding: 24px 40px;
   background-color: rgba(255, 232, 212, 1);
@@ -59,13 +60,14 @@
   height: 73px;
   max-width: 163px;
   background-color: rgba(255, 119, 87, 0.7);
-  padding: 16px 40px;
+  padding: 24px 40px;
   border-radius: 12px;
   font-size: 1.25rem;
   color: #fff;
   font-family: "Rubik", "sans-serif";
   font-weight: 300;
   align-self: center;
+  margin-top: 35px;
 }
 
 .newsletter__subscribe-button:hover {
