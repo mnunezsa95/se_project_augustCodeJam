@@ -57,13 +57,17 @@
 
 .newsletter__subscribe-button {
   height: 73px;
-  width: 163px;
-  background-color: #ff7757;
+  max-width: 163px;
+  background-color: rgba(255, 119, 87, 0.7);
   padding: 16px 40px;
   border-radius: 12px;
   font-size: 1.25rem;
   color: #fff;
   font-family: "Rubik", "sans-serif";
-  font-weight: 400;
+  font-weight: 300;
   align-self: center;
+}
+
+.newsletter__subscribe-button:hover {
+  background-color: rgba(255, 119, 87, 1);
 }
