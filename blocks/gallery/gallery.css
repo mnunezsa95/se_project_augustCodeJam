@@ -1,0 +1,33 @@
+.gallery {
+  max-width: 100%;
+  height: auto;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+.gallery__title-box {
+  /* display: grid; */
+}
+.gallery__title {
+  color: #172432;
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.gllery__images {
+}
+.gallery__carousel {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.gallery__carousel .carousel__item {
+  height: 351px;
+  padding: 40px 24px;
+}
