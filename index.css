@@ -17,6 +17,8 @@
 /* newsletter */
 @import url(../blocks/newsletter/newsletter.css);
 
+/* gallery */
+@import url(../blocks/gallery/gallery.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 
@@ -36,6 +38,7 @@ html {
   width: 100%;
   height: 100%;
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
 
   color: #fff;
@@ -73,4 +76,7 @@ h1 {
     font-family: Playfair Display;
     font-size: 64px;
 
+=======
+  justify-content: center;
+>>>>>>> 9729283 (setting up gallery page)
 }
