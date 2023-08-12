@@ -6,8 +6,9 @@
   font-family: "Rubik-Medium";
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   color: #fff;
-  margin: 240px 182px 140px 182px;
+  padding: 240px 175px 140px 175px;
   align-items: flex-start;
   line-height: 1.2;
 }
@@ -48,4 +49,31 @@
 .footer__list-items-icons {
   flex-direction: row;
   column-gap: 24px;
+}
+
+.footer__button {
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+
+.footer__button-facebook {
+  background: transparent url(../../images/Desktop/facebook.svg) center no-repeat;
+}
+
+.footer__button-instagram {
+  background: transparent url(../../images/Desktop/instagram.svg) center no-repeat;
+}
+
+.footer__button-twitter {
+  background: transparent url(../../images/Desktop/twitter.svg) center no-repeat;
+}
+
+.footer__button-pintrest {
+  background: transparent url(../../images/Desktop/pinterest.svg) center no-repeat;
+}
+
+.footer__button:hover {
+  width: 40px;
+  height: 40px;
 }

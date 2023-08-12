@@ -16,6 +16,9 @@
 @import url(../blocks/header/__content-block/header__content-block.css);
 @import url(../blocks/header/__content-block/_dd/header__content-block_dd.css);
 
+/* blog */
+@import url(../blocks/blog/blog.css);
+
 /* newsletter */
 @import url(../blocks/newsletter/newsletter.css);
 
