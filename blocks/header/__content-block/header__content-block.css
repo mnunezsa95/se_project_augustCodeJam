@@ -1,5 +1,7 @@
-.header__content-block.css {
+.header__content-block {
     height: 176px;
     background-color: #fff;
+    color: #000;
     border: 1px solid green;
+    display: flex;
 }
