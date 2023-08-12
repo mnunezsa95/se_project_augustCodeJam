@@ -3,16 +3,12 @@
     width: 134px;
     color: #fff;
 
-}
-
-.header__button:hover {
-
-}
-
-.header__button_signup {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header__button_signup {
     background-color: #ff7757;
     border-radius: 12px;
 }

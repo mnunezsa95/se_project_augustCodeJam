@@ -10,9 +10,11 @@
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__nav/header__nav.css);
-@import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__login/header__login.css);
+@import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__content-block/header__content-block.css);
+@import url(../blocks/header/__content-block/_dd/header__content-block_dd.css);
 
 /* newsletter */
 @import url(../blocks/newsletter/newsletter.css);
@@ -25,12 +27,12 @@
 /* fonts */
 @font-face {
   src: url(../../vendors/fonts/PlayfairDisplay-Regular.woff2);
-  font-family: "Playfair-Display";
+  font-family: 'Playfair-Display';
 }
 
 @font-face {
   src: url(../../vendors/fonts/Rubik-Medium.woff2);
-  font-family: "Rubik-Medium";
+  font-family: 'Rubik-Medium';
 }
 
 body,
@@ -49,9 +51,9 @@ html {
 }
 
 button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
   border: none;
   background: none;
   padding: 0;
