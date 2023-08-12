@@ -1,7 +1,13 @@
 .header__content-block {
+    padding: 0 32px;
     height: 176px;
+    max-width: 1056px;
+    position: left;
     background-color: #fff;
     color: #000;
-    border: 1px solid green;
     display: flex;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+
+
 }
