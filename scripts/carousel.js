@@ -10,10 +10,10 @@ const chnageButtonStyle = () => {
     sliderButtons[1].style.backgroundColor = carousel.scrollLeft == scrollWidth ? "#172432" : "#ff7757";
 }
 
-sliderButtons.forEach(icon => {
-    icon.addEventListener("click", () => {
+sliderButtons.forEach(button => {
+    button.addEventListener("click", () => {
         let firstItemWidth = firstItem.clientWidth + 14;
-        carousel.scrollLeft += icon.id == "left" ? -firstItemWidth : firstItemWidth;
+        carousel.scrollLeft += button.id == "left" ? -firstItemWidth : firstItemWidth;
         setTimeout(() => chnageButtonStyle(), 60);
     });
 });
