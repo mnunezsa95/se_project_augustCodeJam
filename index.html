@@ -6,10 +6,14 @@
     <meta name="keywords" content="" />
     <meta name="author" content="" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
     <title>Document</title>
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="index.css" />
+    <script src="./scripts/carousel.js" defer></script>
   </head>
 
   <body class="page">
@@ -26,19 +30,103 @@
         </nav>
         <div class="header__login">
           <button class="button header__button">Login</button>
-          <button class="button header__button header__button_signup">Sign up</button>
+          <button class="button header__button header__button_signup">
+            Sign up
+          </button>
         </div>
       </div>
     </header>
-    <main></main>
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="footer__title">
-          <img class="footer__logo" src="/images/Desktop/footer-logo.svg" />
-          <p class="footer__logo-text">Copyright © 2023 </p>
-          <p class="footer__logo-text">&lt;/ ScriptSquad&gt;</p>
-          <p class="footer__logo-text">All rights reserved</p>
+    <section class="gallery">
+      <h3 class="gallery__title">Destination Gallery</h3>
+      <div class="gallery__subtitle-box">
+        <span class="gallery__subtitle">Our photo gallery on trip</span>
+        <div class="gallery__buttons">
+          <button
+            id="left"
+            class="gallery__buttons-button slider-button"
+          ></button>
+          <button
+            id="right"
+            class="gallery__buttons-button slider-button"
+          ></button>
         </div>
+      </div>
+      <div class="gallery__image-wrapper">
+        <div class="gallery__carousel carousel">
+          <img
+            src="./images/Desktop/carousel-item-1.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-2.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-3.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-4.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-1.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-2.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-3.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-4.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-3.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-4.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-3.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-4.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-3.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+          <img
+            src="./images/Desktop/carousel-item-4.jpg"
+            alt="carousel image"
+            class="gallery__image"
+          />
+        </div>
+      </div>
+    </section>
+      <footer> 
         <div class="footer__list-container">
           <p class="footer__list-title">Menu</p>
           <ul class="footer__list-items">
@@ -83,8 +171,6 @@
                 </li>
             </ul>
           </div>
-        </div>
-      </div>
-    </footer>
+      </footer>
   </body>
 </html>
