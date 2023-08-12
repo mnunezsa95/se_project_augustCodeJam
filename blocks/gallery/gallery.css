@@ -64,7 +64,7 @@
 .gallery__carousel {
   /* outline: 1px solid purple; */
   width: 1088px;
-  padding: 100px 32px;
+  padding: 32px;
   margin: 0 auto;
   cursor: pointer;
   overflow: hidden;
