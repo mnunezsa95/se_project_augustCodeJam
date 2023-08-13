@@ -25,18 +25,20 @@
 
 /* gallery */
 @import url(../blocks/gallery/gallery.css);
+/* traveler */
+@import url(../blocks/traveler/traveler.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 
 /* fonts */
 @font-face {
   src: url(../../vendors/fonts/PlayfairDisplay-Regular.woff2);
-  font-family: 'Playfair-Display';
+  font-family: "Playfair-Display";
 }
 
 @font-face {
   src: url(../../vendors/fonts/Rubik-Medium.woff2);
-  font-family: 'Rubik-Medium';
+  font-family: "Rubik-Medium";
 }
 
 body,
@@ -55,9 +57,9 @@ html {
 }
 
 button,
-input[type='button'],
-input[type='reset'],
-input[type='submit'] {
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   border: none;
   background: none;
   padding: 0;
