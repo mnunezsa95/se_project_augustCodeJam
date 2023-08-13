@@ -1,0 +1,140 @@
+.traveler {
+  width: 1152px;
+  margin: 50px auto;
+  height: 1204px;
+  padding: 100px 0;
+}
+.traveler__title {
+  color: #172432;
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+}
+.traveler__title::after {
+  content: "";
+  position: absolute;
+  width: 347px;
+  height: 3px;
+  border-bottom: 3px solid #ff7757;
+  bottom: -20px;
+  left: 0;
+}
+.traveler__subtitle-box {
+  display: flex;
+  justify-content: space-between;
+}
+.traveler__subtitle {
+  color: #767e86;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.traveler__buttons {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+.traveler__buttons-button {
+  border-radius: 12px;
+  width: 60px;
+  height: 60px;
+}
+.traveler__slider {
+  background-color: #172432;
+  background-image: url(../../images/misc/slider-button-prev.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.traveler__slider:active {
+  transform: scale(0.92);
+}
+.traveler__slider:last-child {
+  background-color: #ff7757;
+  background-image: url(../../images/misc/slider-button-next.svg);
+}
+.traveler__container {
+  max-width: 1152px;
+  height: auto;
+  position: relative;
+  margin-top: 160px;
+  display: flex;
+  padding: 0;
+}
+.traveler__container .traveler__carousel {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 0 0 0;
+  cursor: pointer;
+  height: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+.traveler__carousel .card {
+  width: 500px !important;
+  /* height: 360px; */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 60px 40px 40px 40px;
+  position: relative;
+  border-radius: 12px;
+  background-color: #f5f6f7;
+  margin-right: 32px;
+}
+.card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.card__avatar {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: -80px;
+  left: 40px;
+}
+.card__paragraph {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 500px;
+  max-width: 100%;
+  color: #767e86;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+.card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4px;
+}
+.card__info-name {
+  color: #767e86;
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card__info-job {
+  color: #767e86;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
