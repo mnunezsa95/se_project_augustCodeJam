@@ -6,7 +6,7 @@
 }
 .traveler__title {
   color: #172432;
-  font-family: Playfair Display;
+  font-family: "Playfair-Display", "sans-serif";
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -28,7 +28,7 @@
 }
 .traveler__subtitle {
   color: #767e86;
-  font-family: Rubik;
+  font-family: "Rubik-Medium", "sans-serif";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -110,7 +110,7 @@
   width: 500px;
   max-width: 100%;
   color: #767e86;
-  font-family: Rubik;
+  font-family: "Playfair-Display", "sans-serif";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -124,7 +124,7 @@
 }
 .card__info-name {
   color: #767e86;
-  font-family: Playfair Display;
+  font-family: "Playfair-Display", "sans-serif";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -132,7 +132,7 @@
 }
 .card__info-job {
   color: #767e86;
-  font-family: Rubik;
+  font-family: "Rubik-Medium", "sans-serif";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
