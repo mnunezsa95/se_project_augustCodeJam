@@ -138,3 +138,13 @@
   font-weight: 400;
   line-height: normal;
 }
+
+@media screen and (max-width: 1150px) {
+  .traveler {
+    max-width: calc(100% - 40px);
+    margin: 0 20px;
+  }
+  .traveler__buttons {
+    width: 100%;
+  }
+}
