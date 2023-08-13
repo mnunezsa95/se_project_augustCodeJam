@@ -15,6 +15,7 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__content-block/header__content-block.css);
 @import url(../blocks/header/__content-block/_dd/header__content-block_dd.css);
+@import url(../blocks/header/__content-block/_booking/header__content-block_booking.css);
 
 /* blog */
 @import url(../blocks/blog/blog.css);

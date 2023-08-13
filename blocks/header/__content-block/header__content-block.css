@@ -1,5 +1,7 @@
 .header__content-block {
-    padding: 0 32px;
+    margin-top: 170px;
+    padding: 0;
+    padding-left: 32px;
     height: 176px;
     max-width: 1056px;
     position: left;
@@ -7,6 +9,7 @@
     color: #000;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     border-radius: 0 20px 20px 0;
 
 

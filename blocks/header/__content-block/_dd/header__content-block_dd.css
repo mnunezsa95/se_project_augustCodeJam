@@ -1,8 +1,10 @@
 .header__content-block_dd {
-    background-color
+
 }
 
 .header__content-block_dd-group {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
