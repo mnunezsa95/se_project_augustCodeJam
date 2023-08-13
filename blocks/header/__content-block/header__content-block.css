@@ -11,6 +11,8 @@
     align-items: center;
     justify-content: space-between;
     border-radius: 0 20px 20px 0;
+}
 
-
+.header__content-block_dd-title {
+    color: #767E86;
 }
