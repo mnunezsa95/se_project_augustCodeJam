@@ -50,6 +50,5 @@ newsletterSubmitButton.addEventListener("click", (evt) => {
 });
 const submitNewsletter = () => {
   emailInputField.textContent = emailInputField.value;
-  console.log("submit");
   console.log(emailInputField.textContent);
 };
