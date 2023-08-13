@@ -1,14 +1,26 @@
 .header__button {
-    height: 64px;
-    width: 134px;
-    color: #fff;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 64px;
+  width: 134px;
+  color: #fff;
+  font-family: 'rubik-medium';
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header__button_signup {
-    background-color: #ff7757;
-    border-radius: 12px;
+  width: 134px;
+  background-color: #ff7757;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 938px) {
+  .header__button {
+    justify-content: flex-start;
+  }
+
+  .header__button_signup {
+    display: flex;
+    justify-content: center;
+  }
 }

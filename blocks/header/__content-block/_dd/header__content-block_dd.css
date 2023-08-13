@@ -1,21 +1,57 @@
 .header__content-block_dd {
-    border-bottom: 1px solid #000;
+  border-bottom: 1px solid #000;
+  width: 158px;
+}
+
+.header__content-block_dd-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .header__content-block_dd-group {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    cursor: pointer;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.header__content-block_dd-text {
+  width: 50%;
+  font-family: 'playfair-display';
+}
+
+.header__content-block_dd-title {
+  color: #767e86;
+  font-family: 'rubik-medium';
 }
 
 .header__content-block_dd-carat {
-    min-width: 24px;
-    min-height: 24px;
-    background-image: url(../../../../images/misc/Desktop/chevron.svg)
+  position: right;
+  min-width: 24px;
+  min-height: 24px;
+  background-image: url(../../../../images/misc/Desktop/chevron.svg);
+  background-repeat: no-repeat;
 }
 
 .header__content-block_dd-carat:hover {
-    opacity: 0.5;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1152px) {
+  .header__content-block_dd {
+    margin: 0 auto;
+  }
+
+  .header__content-block_dd-group {
+    max-height: 216px;
+    max-width: 357px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
 }

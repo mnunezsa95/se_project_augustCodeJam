@@ -1,0 +1,86 @@
+/* vendors*/
+@import url(../vendors/normalize.css);
+
+/* utilities */
+@import url(../blocks/page/page.css);
+@import url(../blocks/button/button.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__login/header__login.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__content-block/header__content-block.css);
+@import url(../blocks/header/__content-block/_dd/header__content-block_dd.css);
+@import url(../blocks/header/__content-block/_booking/header__content-block_booking.css);
+
+/* blog */
+@import url(../blocks/blog/blog.css);
+
+/* newsletter */
+@import url(../blocks/newsletter/newsletter.css);
+
+/* gallery */
+@import url(../blocks/gallery/gallery.css);
+/* footer */
+@import url(../blocks/footer/footer.css);
+
+/* fonts */
+@font-face {
+  src: url(../../vendors/fonts/PlayfairDisplay-Regular.woff2);
+  font-family: 'Playfair-Display';
+}
+
+@font-face {
+  src: url(../../vendors/fonts/Rubik-Medium.woff2);
+  font-family: 'Rubik-Medium';
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  color: #fff;
+
+  /*font info*/
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: Playfair Display;
+  font-size: 64px;
+
+  justify-content: center;
+}

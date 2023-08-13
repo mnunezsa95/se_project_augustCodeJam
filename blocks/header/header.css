@@ -1,11 +1,10 @@
 .header {
-    min-height: 880px;
-    min-width: 1152px;
-    color: #fff;
+  min-height: 880px;
 
-    background-image: url("../../images/Desktop/petra_at_night_landing_page.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
+  color: #fff;
 
+  background-image: url('../../images/Desktop/petra_at_night_landing_page.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
