@@ -11,7 +11,7 @@
 
 .blog__title {
   color: #172432;
-  font-family: "Playfair-Display", "sans-serif";
+  font-family: 'Playfair-Display', 'sans-serif';
   font-size: 4rem;
   font-weight: 400;
   line-height: 1.2;
@@ -20,7 +20,7 @@
 
 .blog__subtitle {
   color: #767e86;
-  font-family: "Rubik-Medium", "sans-serif";
+  font-family: 'Rubik-Medium', 'sans-serif';
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.2;
@@ -40,7 +40,7 @@
 
 .blog__description-header {
   color: #172432;
-  font-family: "Playfair-Display", "sans-serif";
+  font-family: 'Playfair-Display', 'sans-serif';
   font-size: 3.37rem;
   font-weight: 400;
   line-height: 1.75;
@@ -50,7 +50,7 @@
 
 .blog__description-textarea {
   color: #172432;
-  font-family: "Rubik-Medium", "sans-serif";
+  font-family: 'Rubik-Medium', 'sans-serif';
   font-size: 1.5rem;
   font-weight: 200;
   line-height: 2.5;
@@ -61,7 +61,7 @@
 .blog__read-more-btn {
   cursor: pointer;
   color: #ff7757;
-  font-family: "Rubik-Medium", "sans-serif";
+  font-family: 'Rubik-Medium', 'sans-serif';
   font-size: 1.5rem;
   font-weight: 700;
   align-self: start;
@@ -70,5 +70,14 @@
 @media screen and (max-width: 800px) {
   .blog__description-textarea {
     font-size: 16px;
+  }
+
+  .blog__container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .blog__image {
+    max-width: 100%;
   }
 }
