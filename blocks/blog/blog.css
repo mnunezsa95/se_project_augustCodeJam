@@ -67,11 +67,7 @@
   align-self: start;
 }
 
-@media screen and (max-width: 800px) {
-  .blog__description-textarea {
-    font-size: 16px;
-  }
-
+@media screen and (max-width: 1152px) {
   .blog__container {
     flex-wrap: wrap;
     justify-content: center;
@@ -79,5 +75,10 @@
 
   .blog__image {
     max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .blog__description-textarea {
+    font-size: 16px;
   }
 }

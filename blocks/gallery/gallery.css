@@ -1,6 +1,5 @@
 .gallery {
-  max-width: 100%;
-  margin: 0 auto;
+  padding: 0 32px;
 }
 .gallery__title {
   color: #172432;
@@ -103,6 +102,12 @@
     width: 728px;
     height: 351px;
     object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 1152px) {
+  .gallery {
+    padding: 0;
   }
 }
 

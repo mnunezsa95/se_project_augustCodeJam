@@ -1,8 +1,7 @@
 .traveler {
-  width: 1152px;
-  margin: 50px auto;
+  margin: 50px 0;
   height: 1204px;
-  padding: 100px 0;
+  padding: 100px 32px;
 }
 .traveler__title {
   color: #172432;
@@ -36,6 +35,7 @@
 }
 .traveler__buttons {
   margin: 0;
+  padding-right: 32px;
   display: flex;
   justify-content: flex-end;
   gap: 40px;
@@ -68,6 +68,7 @@
 }
 .traveler__container .traveler__carousel {
   display: flex;
+  margin: 0 auto;
   flex-direction: row;
   padding: 100px 0 0 0;
   cursor: pointer;
@@ -89,6 +90,10 @@
   border-radius: 12px;
   background-color: #f5f6f7;
   margin-right: 32px;
+}
+
+.traveler__carousel {
+  width: 100%;
 }
 .card__body {
   display: flex;
@@ -142,7 +147,7 @@
 @media screen and (max-width: 1150px) {
   .traveler {
     max-width: calc(100% - 40px);
-    margin: 0 20px;
+    margin: 0;
   }
   .traveler__buttons {
     width: 100%;
@@ -151,6 +156,7 @@
 
 @media screen and (max-width: 800px) {
   .traveler__buttons {
+    padding: 0;
     padding-top: 160px;
     justify-content: center;
   }
