@@ -36,4 +36,4 @@ As mentioned above, as of right now, the website is mostly built on HTML and CSS
 
 ### Live Website
 
-The project can be seen live on GitHub Pages using the following URL[].
+The project can be seen live on Netlify using the following URL[https://main--amazing-sherbet-d588cc.netlify.app/].
