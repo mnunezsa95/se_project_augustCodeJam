@@ -1,12 +1,11 @@
 .traveler {
-  width: 1152px;
-  margin: 50px auto;
+  margin: 50px 0;
   height: 1204px;
-  padding: 100px 0;
+  padding: 100px 32px;
 }
 .traveler__title {
   color: #172432;
-  font-family: "Playfair-Display", "sans-serif";
+  font-family: 'Playfair-Display', 'sans-serif';
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -14,7 +13,7 @@
   position: relative;
 }
 .traveler__title::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 347px;
   height: 3px;
@@ -28,7 +27,7 @@
 }
 .traveler__subtitle {
   color: #767e86;
-  font-family: "Rubik-Medium", "sans-serif";
+  font-family: 'Rubik-Medium', 'sans-serif';
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -36,6 +35,7 @@
 }
 .traveler__buttons {
   margin: 0;
+  padding-right: 32px;
   display: flex;
   justify-content: flex-end;
   gap: 40px;
@@ -68,6 +68,7 @@
 }
 .traveler__container .traveler__carousel {
   display: flex;
+  margin: 0 auto;
   flex-direction: row;
   padding: 100px 0 0 0;
   cursor: pointer;
@@ -90,6 +91,10 @@
   background-color: #f5f6f7;
   margin-right: 32px;
 }
+
+.traveler__carousel {
+  width: 100%;
+}
 .card__body {
   display: flex;
   flex-direction: column;
@@ -110,7 +115,7 @@
   width: 500px;
   max-width: 100%;
   color: #767e86;
-  font-family: "Playfair-Display", "sans-serif";
+  font-family: 'Playfair-Display', 'sans-serif';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -124,7 +129,7 @@
 }
 .card__info-name {
   color: #767e86;
-  font-family: "Playfair-Display", "sans-serif";
+  font-family: 'Playfair-Display', 'sans-serif';
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -132,7 +137,7 @@
 }
 .card__info-job {
   color: #767e86;
-  font-family: "Rubik-Medium", "sans-serif";
+  font-family: 'Rubik-Medium', 'sans-serif';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -142,9 +147,17 @@
 @media screen and (max-width: 1150px) {
   .traveler {
     max-width: calc(100% - 40px);
-    margin: 0 20px;
+    margin: 0;
   }
   .traveler__buttons {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .traveler__buttons {
+    padding: 0;
+    padding-top: 160px;
+    justify-content: center;
   }
 }
