@@ -1,0 +1,13 @@
+.header__login {
+  height: 100%;
+  width: 268px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 968px) {
+  .header__login {
+    max-width: 80%;
+  }
+}
